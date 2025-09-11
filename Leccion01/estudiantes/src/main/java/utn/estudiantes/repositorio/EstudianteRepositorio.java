@@ -1,13 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package utn.estudiantes.repositorio;
 
-/**
- *
- * @author garin
- */
-public class EstudianteRepositorio {
-    
+import org.springframework.data.jpa.repository.JpaRepository;
+import utn.estudiantes.modelo.Estudiantes2022;
+
+
+public interface EstudianteRepositorio extends JpaRepository<Estudiantes2022, Integer> {
 }
