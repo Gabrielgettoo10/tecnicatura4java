@@ -15,5 +15,5 @@ public class Libro {
     String autor;
     Double precio;
     Integer existencias;
-    
+
 }
